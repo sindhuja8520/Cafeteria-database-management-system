@@ -1,5 +1,4 @@
-package dbmsAssignment;
-
+//By Sindhuja Maram, Cafetertia Database management System
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
