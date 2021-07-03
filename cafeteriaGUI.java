@@ -1,4 +1,5 @@
-//By Sindhuja Maram, Cafetertia Database management System
+package dbmsAssignment;
+
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -224,7 +225,7 @@ public class cafeteriaGUI extends JFrame{
 							    }
 								connection.close();
 							}catch(SQLException se) {
-								JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry, something went wrong couldn't insert");
+								JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry,couldn't insert, "+se);
 								System.out.println("could not insert"+se);
 							}
 						}
@@ -689,7 +690,7 @@ public class cafeteriaGUI extends JFrame{
 									    }
 										connection.close();
 									}catch(SQLException se) {
-										JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry, something went wrong couldn't insert");
+										JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry,couldn't insert, "+se);
 										System.out.println("could not insert"+se);
 									}
 								}
@@ -1078,7 +1079,7 @@ public class cafeteriaGUI extends JFrame{
 									    }
 										connection.close();
 									}catch(SQLException se) {
-										JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry, something went wrong couldn't insert");
+										JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry,couldn't insert, "+se);
 										System.out.println("could not insert"+se);
 									}
 								}
@@ -1484,7 +1485,7 @@ public class cafeteriaGUI extends JFrame{
 									    }
 										connection.close();
 									}catch(SQLException se) {
-										JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry, something went wrong couldn't insert");
+										JOptionPane.showMessageDialog(cafeteriaGUI.this,"Sorry,couldn't insert, "+se);
 										System.out.println("could not insert"+se);
 									}
 								}
